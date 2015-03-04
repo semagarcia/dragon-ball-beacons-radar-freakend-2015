@@ -1,0 +1,32 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DragonBallRadar">
+
+    <item android:id="@+id/menu_refresh"
+        android:checkable="false"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menu_scan"
+        android:title="@string/main_menu_scan"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_scan_stop"
+        android:title="@string/main_menu_scan_stop"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_more"
+        android:title="@string/main_menu_more"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/menu_discovery_mode"
+        android:titleCondensed="Persist"
+        android:title="Modo descubrimiento"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:checkable="true" />
+
+</menu>

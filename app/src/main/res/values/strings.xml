@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dragon Ball Radar</string>
+    <string name="beacons_founds">Beacons encontrados: 0</string>
+    <string name="main_menu_scan">Buscar</string>
+    <string name="main_menu_more">Modo servicios!</string>
+    <string name="ble_not_supported">Bluetooth LE no soportado</string>
+    <string name="error_bluetooth_not_supported">BT no soportado</string>
+    <string name="main_menu_scan_stop">Parar</string>
+    <string name="title_activity_beacon_details">Detalle Beacon BLE</string>
+    <string name="action_settings">Opciones</string>
+
+</resources>
